@@ -138,30 +138,6 @@ CPA 管理密码由下面的环境变量配置：
 MANAGEMENT_PASSWORD: "${CPA_MANAGEMENT_PASSWORD:-change-your-password}"
 ```
 
-## 推送到 GitHub
-
-初始化 Git：
-
-```bash
-git init -b main
-git add docker-compose.yml README.md cpa/config.yaml nginx
-git commit -m "chore: add proxy docker deployment config"
-```
-
-如果要创建新的 GitHub 私有仓库并推送：
-
-```bash
-gh auth login
-gh repo create proxy --private --source=. --remote=origin --push
-```
-
-如果 GitHub 仓库已经存在：
-
-```bash
-git remote add origin https://github.com/<owner>/<repo>.git
-git push -u origin main
-```
-
 ## 生产环境注意事项
 
 - 部署前替换所有 `change-your-password`。
