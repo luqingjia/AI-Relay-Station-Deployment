@@ -1,6 +1,6 @@
-# Proxy Docker 部署说明
+# AI-Relay-Station-Deployment Docker 部署说明
 
-这个项目用于通过 Docker Compose 部署 New API、CLIProxyAPI（CPA）、PostgreSQL、Redis 和 Nginx。
+这个项目用于通过 Docker Compose 部署 New API、CLIProxyAPI（CPA）、PostgreSQL、Redis 和 Nginx 进行 Codex 等 AI 的中转服务。
 
 ## 服务组成
 
