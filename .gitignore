@@ -1,0 +1,14 @@
+.env
+.env.*
+!.env.example
+
+cpa/auths/
+cpa/pgstore/
+cpa/logs/
+newapi/data/
+newapi/logs/
+nginx/ssl/
+nginx/logs/
+
+*.log
+docker-compose.yml.bak-*
