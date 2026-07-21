@@ -71,7 +71,7 @@ nginx/conf.d/api.conf
 当前配置使用的域名和证书路径：
 
 ```text
-server_name api.aso8ty.com;
+server_name change-your-domain;
 ssl_certificate /etc/nginx/ssl/api.pem;
 ssl_certificate_key /etc/nginx/ssl/api.key;
 ```
